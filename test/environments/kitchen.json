@@ -1,0 +1,25 @@
+{
+  "name": "kitchen",
+  "description": "Standard Test Environment",
+  "json_class": "Chef::Environment",
+  "chef_type": "environment",
+  "default_attributes": {
+    "symfony": {
+        "shared": {
+          "user": "root",
+          "group": "root"
+        },
+        "sites": {
+            "standard": {
+              
+            },
+            "custom": {
+              "app_name": "app_us",
+              "directories": [
+                "web_public/uploads"
+              ]
+            }
+        }
+    }
+  }
+}

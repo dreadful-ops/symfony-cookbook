@@ -1,5 +1,7 @@
 .vagrant
-/cookbooks
+
+# IDE
+.idea
 
 # Bundler
 bin/*
@@ -7,3 +9,7 @@ bin/*
 
 .kitchen/
 .kitchen.local.yml
+
+# Ruby shit
+Gemfile.lock
+Berksfile.lock
